@@ -5,20 +5,25 @@
     <meta charset='UTF-8'>
     <title>yong's portfolio</title>
     <link rel='stylesheet' href='yong_portfolio.css'>
-    <script type="text/javascript" src="yong_portfolio.js"></script>
+    <script type='text/javascript' src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
+    <script type='text/javascript' src='yong_portfolio.js'></script>
 </head>
 
 <body>
     <header>
         <h1>YONG(isanghaessi)'s portfolio</h1>
         <nav>
-            <span>Intro</span>
-            <span>Skills</span>
-            <span>Projects</span>
-            <span>Github</span>
+            <button class='nav_btn' id='Intro_btn' onclick='MoveTo("Intro_item")'>Intro</button>
+            <button class='nav_btn' id='Skills_btn' onclick='MoveTo("Skills_item")'>Skills</button>
+            <button class='nav_btn' id='Projects_btn' onclick='MoveTo("Projects_item")'>Projects</button>
+            <button class='nav_btn' id='Contact_btn' onclick='MoveTo("Contact_item")'>Contact</button>
         </nav>
     </header>
-
+    <main>
+        <div class='nav_item' id='Intro_item'>Intro...</div>
+        <div class='nav_item' id='Skills_item'>Skills...</div>
+        <div class='nav_item' id='Projects_item'>Projects...</div>
+        <div class='nav_item' id='Contact_item'>Contact...</div>
+    </main>
 </body>
-
 </html>

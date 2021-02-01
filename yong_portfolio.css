@@ -17,6 +17,32 @@ nav {
     align-items: right;
 }
 
+.nav_btn {
+    font-size: medium;
+}
+
+.nav_item {
+    width: 100%;
+    height: 500px;
+    font-size: xx-large;
+}
+
+#Intro_item {
+    background: red;   
+}
+
+#Skills_item {
+    background: green;   
+}
+
+#Projects_item {
+    background: blue;   
+}
+
+#_item {
+    background: yellow;   
+}
+
 body {
     margin: 0px;
     padding-top: 100px;

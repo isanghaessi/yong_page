@@ -1,4 +1,4 @@
-var i;
-for (let i = 0; i < 100; i++) {
-    document.write('<div>working on...<div>')
+function MoveTo(tag){
+    var offset=$('#'+tag).offset();
+        $('html, body').animate({scrollTop : offset.top-100}, 500);
 }
