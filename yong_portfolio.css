@@ -1,0 +1,25 @@
+header {
+    margin: 0px;
+    height: 100px;
+    color: white;
+    background: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    align-items: right;
+}
+
+body {
+    margin: 0px;
+    padding-top: 100px;
+    color: black;
+    background: white;
+}
