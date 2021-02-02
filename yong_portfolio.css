@@ -13,11 +13,11 @@ header {
     right: 0;
 }
 
-h1 {
+header h1 {
     align-items: left;
 }
 
-nav {
+header nav {
     align-items: right;
 }
 
@@ -28,10 +28,9 @@ nav {
     border: none;
     padding: 5px;
 }
-.nav_btn:hover {
+/* .nav_btn:hover {
     background: gray;
-    color:white;
-}
+} */
 #Intro_btn {
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
@@ -39,6 +38,13 @@ nav {
 #Contact_btn {
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+body {
+    margin: 0px;
+    padding-top: 100px;
+    color: black;
+    background: white;
 }
 
 .nav_item {
@@ -57,13 +63,6 @@ nav {
 }
 #Contact_item {
     border: solid thick gray;
-}
-
-body {
-    margin: 0px;
-    padding-top: 100px;
-    color: black;
-    background: white;
 }
 
 /*----------------------------------- day/night toggle ---------------------------------------------*/
