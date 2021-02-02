@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <h1>YONG(isanghaessi)'s portfolio</h1>
+        <h1>저는 주니어 개발자 홍승용입니다.</h1>
         <span id='dn_sw'>
         <label class='switch'>
             <input type='checkbox'>
@@ -23,14 +23,57 @@
             <button class='nav_btn' id='Intro_btn' onclick='MoveTo("Intro_item")'>Intro</button>
             <button class='nav_btn' id='Skills_btn' onclick='MoveTo("Skills_item")'>Skills</button>
             <button class='nav_btn' id='Projects_btn' onclick='MoveTo("Projects_item")'>Projects</button>
-            <button class='nav_btn' id='Contact_btn' onclick='MoveTo("Contact_item")'>Contact</button>
+            <button class='nav_btn' id='Github_btn' onclick='window.open("https://github.com/isanghaessi")'>Github</button>
         </nav>
     </header>
     <main>
-        <div class='nav_item' id='Intro_item'>Intro...</div>
-        <div class='nav_item' id='Skills_item'>Skills...</div>
-        <div class='nav_item' id='Projects_item'>Projects...</div>
-        <div class='nav_item' id='Contact_item'>Contact...</div>
+        <div class='nav_item' id='Intro_item'>
+            <div id='Intro_exp'>Experiences</div>
+            <ul>
+                <li>인천대학교 물리학과 2015 ~ 2016</li>
+                <li>인천대학교 임베디드시스템공학과 2018 ~ </li>
+                <li>...</li>
+            </ul>
+        </div>
+        <div class='nav_item' id='Skills_item'>
+            <div class='skills'>C</div>
+            <ul>
+                <li>C언어는 저의 첫 프로그래밍 언어입니다.</li>
+                <li>쓰레드/소켓통신을 구현해 본 경험이 있습니다.</li>
+            </ul>
+            <div class='skills'>C++ / Java</div>
+            <ul>
+                <li>객체지향 프로그래밍에 대한 이해도가 있습니다.</li>
+            </ul>
+            <div class='skills'>Python</div>
+            <ul>
+                <li>웹 크롤링을 이용한 DB구축에 대해 공부 중입니다.</li>
+            </ul>
+            <div class='skills'>Html / Css / Javascript</div>
+            <ul>
+                <li>웹 사이트의 기본 동작에 대한 이해도가 있습니다.</li>
+                <li>Jquery 라이브러리를 검색, 적용할 수 있습니다.</li>
+            </ul>
+            <div class='skills'>Node.js</div>
+            <ul>
+                <li>비동기 서버사이드 언어에 대해 공부 중입니다.</li>
+                <li>Express 프레임워크에 대해 공부 중입니다.</li>
+            </ul>
+            <div class='skills'>Mysql</div>
+            <ul>
+                <li>관계형 데이터베이스에 대한 이해도가 있습니다.</li>
+            </ul>
+            <div class='skills'>Android</div>
+            <ul>
+                <li>Java / Xml을 이용한 Android 프로그래밍에 대한 이해도가 있습니다.</li>
+                <li>중소기업의 앱을 유지 / 보수 / 프로젝트 경험이 있습니다.</li>
+            </ul>
+        </div>
+        <div class='nav_item' id='Projects_item'>
+            <div>Project 추가 예정</div>
+            <br>
+            <div>...</div>
+        </div>
     </main>
 </body>
 </html>

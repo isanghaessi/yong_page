@@ -29,7 +29,6 @@ function ToggleDark() {
         $('h1, #day, #night').css('color','white');
         $('.nav_btn').css('color','black');
         $('.nav_btn').css('background','white');
-        $('.nav_btn:hover').css('background','gray');
         $('.nav_item').css('background','white');
         $('.nav_item').css('color','black');
     }
@@ -37,5 +36,5 @@ function ToggleDark() {
 
 function MoveTo(tag){
     var offset=$('#'+tag).offset();
-        $('html, body').animate({scrollTop : offset.top-100}, 500);
+        $('html, body').animate({scrollTop : offset.top-100}, 250);
 }
