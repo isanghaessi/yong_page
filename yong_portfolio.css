@@ -77,6 +77,14 @@ body {
 
 	/* border: black solid thick; */
 }
+
+.experiences {
+	font-weight: bold;
+}
+
+.skills {
+	font-weight: bold;
+}
 #Skills_item {
 	height: 100%;
 	text-align: center;
