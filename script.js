@@ -1,20 +1,22 @@
 const HEADER_PIXEL = 100;
-const AUTO_SCROLL_TIME = 500;
 
-const menus = ['Intro', 'Skills', 'Projects'].map((m) => {
-	return {
-		menu: m,
-		top: document.querySelector(`#${m}_item`).getBoundingClientRect().top
-	};
-});
-menus.push({
-	menu: 'Github',
-	top: Infinity
-});
-console.log(menus);
+let menus, btns;
 
 document.addEventListener('DOMContentLoaded', () => {
-	const btns = document.querySelectorAll('.nav_btn');
+	menus = ['Intro', 'Skills', 'Projects'].map((m) => {
+		return {
+			menu: m,
+			top: document.querySelector(`#${m}_item`).getBoundingClientRect()
+				.top
+		};
+	});
+	menus.push({
+		menu: 'Github',
+		top: Infinity
+	});
+	console.log(menus);
+
+	btns = document.querySelectorAll('.nav_btn');
 	for (let b of btns) {
 		b.addEventListener('mouseover', () => {
 			b.style.background = 'gray';
@@ -55,4 +57,5 @@ function moveTo(from) {
 		top: offset.top,
 		behavior: 'smooth'
 	});
+	console.log(offset.top);
 }

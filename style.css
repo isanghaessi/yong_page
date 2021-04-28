@@ -55,6 +55,10 @@ body {
 	flex-direction: row;
 }
 
+#Intro_itm {
+	height: auto;
+}
+
 .item_left {
 	height: 100%;
 	flex-basis: 30%;
