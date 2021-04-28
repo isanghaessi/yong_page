@@ -13,7 +13,7 @@ $(document).ready(() => {
 		},
 		function () {
 			changeCurrentBtnGray();
-		},
+		}
 	);
 
 	$(window).on('scroll', changeCurrentBtnGray);
@@ -41,6 +41,6 @@ function moveTo(from) {
 	const offset = $('#' + dest).offset();
 	$('html, body').animate(
 		{ scrollTop: offset.top - HEADER_PIXEL },
-		AUTO_SCROLL_TIME,
+		AUTO_SCROLL_TIME
 	);
 }
